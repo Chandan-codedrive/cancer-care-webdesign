@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+#header-top{
+    background-color: #2B6CA3;
+}
+.logo-image img{
+    width: 300px;
+    height: auto;
+}
+.head-contract li{
+    list-style: none;
+    display: block;
+    float: right;
+    padding-left: 15px;
+    font-size: 20px;
+    color: white;
+    padding-top: 0.5rem;
+}
+.head-contract li i{
+    padding-right: 7px;
+}
+.navh{
+    display: block;
+}
+#top-nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-menue{
+    background: #7DABF4;
+    transform: skewX(-20deg);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.nav-menue li{
+    list-style: none;
+    padding: 1rem;
+    cursor: pointer;
+    color: #06375f;
+    font-weight: 600;
+}
+.nav-menue li:hover{
+    background-color: #06375f;
+    color: white;
+}
+#top-nav ul{
+    display: flex;
+    flex-direction: row;
+}
+.btn-s{
+    border: 0.5px solid white;
+}
+.btn-s:hover{
+    background: #2B6CA3;
+    color: white;
+} 
+#banner{
+    background-image: url(../image/pexels-pixabay-53958.jpg);
+    background-size: cover;
+}
+.Goal{
+    color: white;
+    background: #2B6CA3;
+    text-align: center;
+}
+.Goal h1{
+    padding-top: 2rem;
+}
+.Goal i{
+    font-size: 100px;
+}
+.goal2{
+    background-color: #0a508a;
+    position: relative;
+    top: 4rem;
+}
+.goal2 i{
+    font-size: 100px;
+}
+.goal2 h1{
+    padding-top: 50px;
+}
+#welcome{
+    text-align: center;
+    padding-top: 8rem;
+    
+}
+#welcome i{
+    font-size: 80px;
+    color: #7DABF4;
+}
+#welcome h1, p {
+    color: #0a508a;
+    font-weight: 600;
+}
+
+#aboutus{
+    background-image:  url(../image/pexels-pixabay-53958.jpg);
+    background-attachment: fixed; 
+    background-size: cover;
+    display: block;
+    color: white;
+}
+#abt-us, #pr-desk{
+    background-color: rgba(114, 184, 250, 0.705);
+    padding-top: 2rem;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+#abt-us, #pr-desk h1{
+    text-align: center;
+    font-weight: 700;
+}
+#pr-desk{
+    text-align: center;
+}
+#pr-desk img{
+    border: 5px solid white;
+    border-radius: 50%;
+}
+#ourmember{
+    text-align: center;
+}
+#ourmember{
+    margin-top: 2rem;
+}
+#ourmember h3{
+    color:  rgb(0, 153, 255);
+}
+.meb-per{
+    padding: 1rem;
+    margin-top: 2rem;
+    transition: 1000ms;
+   cursor: pointer;
+   border: 1px solid rgb(0, 153, 255);
+   border-radius: 5%;
+}
+.meb-per:hover{
+    border: 5px solid #0A508A;
+    border-radius: 20%
+}
+.rich-hline{
+    color: #0A508A;
+    font-size: 4rem;
+    font-weight: 600;
+}
+#stasvisit{
+    text-align: center;
+    color: #0A508A;
+}
+#footer{
+    background: #011d35;
+    color: white;
+    padding-top: 1rem;
+}
+#footer li{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
